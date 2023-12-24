@@ -58,6 +58,7 @@
     "@sentry/node": "7.64.0",
     "@sinclair/typebox": "0.26.8",
     "@supabase/supabase-js": "2.33.1",
+    "@tryfabric/martian": "1.2.4",
     "@types/showdown": "2.0.6",
     "airtable": "0.11.6",
     "ajv": "8.12.0",
