@@ -47,6 +47,8 @@ COPY --from=build /usr/src/app/dist/packages/ui/core/ /usr/share/nginx/html/
 VOLUME ${AP_CACHE_PATH}
 VOLUME ${AP_PACKAGE_ARCHIVE_PATH}
 
+RUN cat packages/pieces/notion/src/lib/action/create-page.ts
+
 
 # Set up entrypoint script
 COPY docker-entrypoint.sh .
